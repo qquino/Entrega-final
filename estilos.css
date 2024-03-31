@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(255, 136, 0);
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+body {
+  background-color: orange;
+  background-image: linear-gradient(rgb(255, 238, 0), orange, rgb(145, 96, 40));
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-transform: capitalize;
+  color: rgb(241, 1, 1) !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(126, 82, 1) !important;
+}
+
+h2 {
+  color: rgb(248, 220, 184);
+  background-color: rgb(197, 96, 2);
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  padding: 25px;
+  border: solid 5px rgb(105, 56, 0);
+  width: 100%;
+}
+
+.articulo {
+  height: 350px;
+  width: 25%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  background-color: orange;
+  background-image: linear-gradient(rgb(163, 84, 20), orange);
+  padding: 30px;
+  border: solid 3px black;
+  justify-content: space-around;
+}
+
+.articulo i {
+  font-size: 60px;
+  color: rgb(255, 8, 0);
+  padding: 25px;
+}
+
+.subtiti {
+  color: rgb(247, 213, 23);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline rgb(245, 88, 15);
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  transform: translate(auto);
+  transition: 2s;
+}
+
+footer {
+  background-color: rgb(117, 67, 2);
+  color: rgb(248, 220, 184);
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  width: 100%;
+}
+
+.pp {
+  color: rgb(248, 220, 184);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 238, 0);
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+.jumbotron {
+  background-image: url(/imagenes/tortitas.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  background-position: center;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+  justify-content: baseline;
+  text-align: justify;
+}
+
+.contenedor {
+  text-align: center;
+  justify-content: space-around;
+  background-color: none;
+  padding: 20px;
+  background-color: rgb(255, 136, 0);
+  border: 5px solid rgb(131, 66, 13);
+  height: 300px;
+  width: 300px;
+  transform: translateX(50);
+  transition: all 1.5s;
+}
+
+.conteiner {
+  justify-content: space-around;
+}
+
+.oferta {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.po {
+  color: pink;
+  transition: 1s;
+}
+
+.po:hover {
+  color: rgb(142, 1, 170);
+  transform: scale(2);
+}
+
+h5 {
+  justify-content: center;
+  color: yellow;
+  text-decoration: underline red;
+}
+
+h6 {
+  text-align: center;
+  color: rgb(102, 102, 97);
+  text-decoration: underline rgb(255, 153, 0);
+  font-size: 40px;
+}
+
+.forms {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(233, 230, 52);
+  color: black;
+  border: 5px black solid;
+  justify-content: center;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.name {
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+}
+
+.address {
+  text-align: center;
+}
+
+.phone {
+  text-align: center;
+}
+
+.name-input {
+  position: relative;
+  left: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.mail-input {
+  width: 222px;
+  position: relative;
+  left: 6px;
+}
+
+.phone-input {
+  width: 222px;
+  position: relative;
+  left: 6px;
+}
+
+.submit {
+  bottom: 5px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.delete {
+  bottom: 5px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ubicasao {
+  color: orange;
+  text-align: center;
+  text-decoration: underline orangered;
+}
+
+.ubicacionmapa {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
